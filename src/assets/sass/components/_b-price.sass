@@ -1,0 +1,56 @@
+.b-price
+  color: #010101
+  text-align: center
+  width: 170px
+  display: inline-block
+  &__icon
+    display: inline-block
+    width: 100px
+    height: 100px
+    background-color: #ebebeb
+    border-radius: 50%
+    text-align: center
+    margin-bottom: 20px
+    i
+      font-size: 50px
+      line-height: 100px
+      margin-bottom: 24px
+    &_black
+      background-color: #010101
+      i
+        color: #ffffff
+  &__title
+    font-size: 24px
+    font-weight: bold
+    line-height: 24px
+
+  &__descr
+    font-size: 14px
+    line-height: 24px
+    margin-bottom: 40px
+
+  &__descr, &__cost-descr
+    color: #898989
+
+  &__cost
+    font-size: 32px
+    font-weight: bold
+    line-height: 24px
+    display: inline-block
+    margin-bottom: 14px
+    text-transform: uppercase
+    &:after
+      content: ''
+      height: 2px
+      display: inline-block
+      width: 100%
+      background-color: #010101
+
+  &__cost-descr
+    margin-bottom: 40px
+
+  &+.b-price
+    margin-left: 140px
+
+  &__get
+    width: 100%
