@@ -4,9 +4,15 @@
 @import "../../plugins/font-awesome/scss/font-awesome"
 @import "../../plugins/bootstrap-sass/assets/stylesheets/bootstrap"
 
+@import "components/title"
+
 @import "components/b-logo"
 @import "components/b-top-menu"
 @import "components/b-header"
+
+@import "components/b-section"
+
+
 
 
 h1, h2, h3, h4, p, ul
@@ -16,7 +22,11 @@ h1, h2, h3, h4, p, ul
 ul
   list-style: none
 
+html, body, main
+  height: 100%
+
 body
   font-family: $font-stack
   font-size: $font-size
   font-weight: normal
+  color: #555

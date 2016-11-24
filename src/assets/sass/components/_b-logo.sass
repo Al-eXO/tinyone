@@ -16,6 +16,12 @@
       max-width: 100%
       max-height: 100%
 
+  &__text
+    max-height: 0
+    overflow: hidden
+    transition: max-height 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86)
+
+
   //Icon Style
   #Touch_ID
     path
@@ -24,3 +30,11 @@
       stroke-width: 8
       stroke-linecap: round
       stroke-miterlimit: 10
+      stroke-dasharray: 195
+      stroke-dashoffset: 200
+      animation: showTouchID 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) forwards
+
+
+@keyframes showTouchID
+  to
+    stroke-dashoffset: 400
