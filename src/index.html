@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <title>Tinyone Template</title>
     <link rel="stylesheet" href="assets/css/app.css">
+    <style>#hideAll{position:fixed;left:0;top:0;width: 100%;height: 100%;transition: all 1.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);background-color:#fcdb00;z-index:9000;box-shadow: 0 0 10px rgba(0,0,0,.4)}</style>
+    <script data-pace-options="{ 'ajax': false }" src="assets/js/vendor/pace.js"></script>
 </head>
 <body>
-
+<div id="hideAll"></div>
+<!-- /.hideAll -->
 <header class="b-header">
     <div class="container">
         <div class="row">
@@ -93,10 +96,55 @@
                         <h2 class="title title_h2">Simple to use for your app, products showcase and your inspiration</h2>
                         <!-- /.title title_h2 -->
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                        <p class="mobile-icons">
+                            <i class="fa fa-apple" aria-hidden="true"></i>
+                            <i class="fa fa-android" aria-hidden="true"></i>
+                            <i class="fa fa-windows" aria-hidden="true"></i>
+                        </p>
                     </div>
                     <!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-
+                    <div class="col-sm-6 text-center">
+                        <div class="tablet-wrap">
+                            <div class="tablet">
+                                <div class="tablet__screen">
+                                    <a href="/" class="tablet__item b-logo b-logo_yellow">
+                                        <span class="b-logo__icon">
+                                            <svg version="1.1" id="Touch_IDEX" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 viewBox="0 0 203 203" style="enable-background:new 0 0 203 203;" xml:space="preserve">
+                                                <g id="Large">
+                                                    <g>
+                                                        <path d="M9.9,74.8C7.4,83.3,6,92.4,6,101.9c0,10.6,1.7,20.8,4.9,30.4"/>
+                                                        <path d="M100.9,5.9c-37.5,0.4-69.9,22.3-85.3,54"/>
+                                                        <path d="M198,99.1C196.7,52.4,162,14,116.9,7"/>
+                                                        <path d="M96.3,183.8c-1.9,5.3-3.8,9.8-5.5,13.4"/>
+                                                        <path d="M102,101.9c0,0,6.3,25.3,1.6,54.2c-0.7,4.3-1.6,8.5-2.6,12.5"/>
+                                                        <path d="M120.4,150.6c-0.2,1.8-0.5,3.6-0.8,5.5c-2.9,18-8,33.1-11.5,41.8"/>
+                                                        <path d="M74.3,193.8c4.5-8.9,10.1-22.1,12.8-37.7c4-23,0.5-44-0.8-51.4c-0.2-0.9-0.3-1.9-0.3-2.8c0-8.8,7.2-16,16-16c7.6,0,13.9,5.3,15.6,12.4c0,0,3.7,16.2,3.7,36.4"/>
+                                                        <path d="M184.8,130.6c0.1,6.4,0,13.3-0.4,20.4"/>
+                                                        <path d="M70.6,28.2c9.6-4.1,20.2-6.4,31.4-6.4c40.4,0,73.9,30.1,79.3,69c0,0,1.7,9.3,2.8,23.7"/>
+                                                        <path d="M21.7,154.5c1-2.4,1.8-5,2.4-7.8c2.3-9.9,0.4-23.9-1-31.5c-0.7-4.3-1.1-8.8-1.1-13.3c0-27.4,13.7-51.5,34.7-65.9"/>
+                                                        <path d="M117.9,39.8c-5.1-1.3-10.4-2-15.9-2c-35.3,0-64,28.7-64,64c0,3.3,0.3,6.6,0.7,9.8c1.5,8.4,3.5,22.6,0.9,36.9c-1.4,7.6-3.9,14.3-6.7,20"/>
+                                                        <path d="M165.8,173.5c0.6-3.3,1.1-6.8,1.5-10.3c4.7-36.9-2.1-71-2.1-71c-3-20.1-15.4-37.1-32.5-46.5"/>
+                                                        <path d="M147.5,86.6c0.6,1.8,1.1,3.7,1.5,5.6c1.9,9.8,5.9,34,3.2,60.8c-1.3,12.9-3.6,24.5-6.1,34.1"/>
+                                                        <path d="M56.3,143.9c2-18.3-1.4-32.6-1.4-32.6c-0.6-3-0.9-6.2-0.9-9.4c0-26.5,21.5-48,48-48c15.4,0,29.1,7.3,37.9,18.5"/>
+                                                        <path d="M45.4,179.5c2.9-5.6,5.8-12.3,7.9-19.9"/>
+                                                        <path d="M91,71.8c3.4-1.3,7.1-1.9,11-1.9c15.4,0,28.3,10.9,31.3,25.4c1.7,8.2,5.8,31.7,2.9,58.1c-1.9,16.7-5.8,31.2-9.3,41.3"/>
+                                                        <path d="M59.4,187.9c4.8-9.1,9.7-21,11.8-34.1c3.1-19.8,0.8-37.5-0.7-46.2c-0.4-1.9-0.5-3.7-0.5-5.8c0-8.1,3-15.5,7.9-21.1"/>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                        <!-- /.b-logo__icon -->
+                                        <span class="b-logo__text">tinyone</span>
+                                        <!-- /.b-logo__text -->
+                                    </a>
+                                    <!-- /.b-header__item logo -->
+                                </div>
+                                <!-- /.tablet__screen -->
+                            </div>
+                            <!-- /.tablet -->
+                        </div>
+                        <!-- /.tablet-wrap -->
                     </div>
                     <!-- /.col-sm-6 -->
                 </div>
@@ -111,5 +159,26 @@
 </main>
 
 
+<script src="assets/js/vendor/jquery.min.js"></script>
+
+<script>
+
+    var scr = {"scripts":[
+        {"src" : "assets/js/app.js", "async" : false}
+    ]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+
+
+    $(function(){
+        Pace.on('done', function(){
+            $('#hideAll').css({'top': '100%', 'height': '0'});
+            setTimeout(function(){
+                $('#Touch_ID').addClass('animate');
+                $('.b-logo__text').addClass('b-logo__text_animate');
+                $('.b-top-menu').addClass('b-top-menu_open');
+            }, 1000);
+        });
+    });
+
+</script>
 </body>
 </html>

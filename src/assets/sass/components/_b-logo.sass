@@ -15,12 +15,16 @@
     svg
       max-width: 100%
       max-height: 100%
+      &.animate
+        path
+          animation: showTouchID 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) forwards
 
   &__text
     max-height: 0
     overflow: hidden
     transition: max-height 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86)
-
+    &_animate
+      max-height: 200px
 
   //Icon Style
   #Touch_ID
@@ -32,8 +36,18 @@
       stroke-miterlimit: 10
       stroke-dasharray: 195
       stroke-dashoffset: 200
-      animation: showTouchID 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) forwards
 
+  &_yellow
+    color: $main-color
+    #Touch_IDEX
+      path
+        stroke-width: 8
+        stroke-linecap: round
+        stroke-miterlimit: 10
+        stroke: $main-color
+        stroke-dasharray: 195
+        stroke-dashoffset: 200
+        animation: showTouchID 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) forwards
 
 @keyframes showTouchID
   to

@@ -8,7 +8,19 @@
   &__item
     vertical-align: middle
     display: inline-block
-
+    overflow: hidden
+    max-height: 0
+    transition: max-height 1.5s cubic-bezier(0.785, 0.135, 0.15, 0.86)
   &__link
     color: #010101
     padding: 0 35px
+  &_open &
+    &__item
+      max-height: 90px
+      &:nth-child(1)
+        transition-delay: .3s
+      &:nth-child(2)
+        transition-delay: .4s
+      &:nth-child(3)
+        transition-delay: .5s
+
