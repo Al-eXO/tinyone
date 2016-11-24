@@ -1,0 +1,24 @@
+{
+  "name": "RobotsTemplate",
+  "version": "1.0.0",
+  "description": "Project Template",
+  "author": "Osipov Alexey",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.11.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-file-include": "^0.14.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-remove-html": "^1.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^2.0.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "imagemin-pngquant": "^5.0.0"
+  }
+}
